@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yapita.app.TabsPrincipalActivity"    
+    >
+
+    <item
+        android:id="@+id/tab_settings"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/action_settings"
+        android:titleCondensed="@string/menu_setting"
+        android:icon="@drawable/ic_action_config"               
+        />
+    
+    <item 
+        
+        android:id ="@+id/tab_buscar"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_buscar"
+        android:icon="@drawable/ic_action_search"
+        />
+    
+    <item 
+        
+        android:id ="@+id/tab_ubicacion"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_ubicacion"
+        android:icon="@drawable/ic_action_ubicacion"
+        />
+    
+    
+</menu>

@@ -1,0 +1,95 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+<!--         <item name="android:popupMenuStyle">@style/MyActionBar</item> -->
+                            <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+     <style name="MyActionBar" parent="android:style/Widget.Holo.Light.ActionBar"> 
+         <item name="android:background">@drawable/abc_ab_bottom_solid_dark_holo</item> 
+         </style>
+
+<!--      mi estilo -->
+<style name="Theme.Mistyle" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_mistyle</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Mistyle</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Mistyle</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Mistyle</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Mistyle</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Mistyle</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_mistyle</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_mistyle</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Mistyle</item>
+
+                <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Mistyle.Widget</item>
+        
+
+    </style>
+
+    <style name="ActionBar.Solid.Mistyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_mistyle</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_mistyle</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_mistyle</item>
+        <item name="progressBarStyle">@style/ProgressBar.Mistyle</item>
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Mistyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_mistyle</item>
+        <item name="progressBarStyle">@style/ProgressBar.Mistyle</item>
+    </style>
+	
+    <style name="PopupMenu.Mistyle" parent="@style/Widget.AppCompat.PopupMenu">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_mistyle</item>	
+    </style>
+	
+    <style name="DropDownListView.Mistyle" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_mistyle</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Mistyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_mistyle</item>
+    </style>
+	
+    <style name="DropDownNav.Mistyle" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_mistyle</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_mistyle</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_mistyle</item>
+    </style>
+    
+    <style name="ProgressBar.Mistyle" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_mistyle</item>
+    </style>
+    
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/negro</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Mistyle" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_mistyle</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Mistyle.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Mistyle</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Mistyle</item>
+    </style>
+    
+    
+
+</resources>

@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_costumbres_inf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yapita.app.TabCostumbresInfFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+<Gallery
+    android:id="@+id/galeriaPlatos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:spacing="0.2px" />
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yapita</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bienvenido">BienvenidoActivity</string>
+    <string name="archivo_preferencias">ArchivoPreferencias</string>
+    <string name="preferencias_correo">PreferenciasCorreo</string>
+    <string name="preferencias_clave">PreferenciasClave</string>
+    <string name="title_activity_tabs_principal">TabsPrincipalActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="menu_ubicacion">Ubicacion</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_buscar">Buscar</string>
+    <string name="tab_costumbres">Costumbres</string>
+    <string name="tab_conoceme">Conoceme</string>
+    <string name="tab_sitios">Sitios</string>
+    <string name="tab_favoritos">Favoritos</string>
+    <string name="fragmento_main">FragmentMain</string>
+    <string name="title_activity_tab_costumbres">TabCostumbresActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lbl_bienvenida">Bienvenido a </string>
+    <string name="fragment_costumbres_sup">fragmentoSupCostumbres</string>
+    
+    <string name="lbl_platos">Platos</string>
+    <string name="lbl_bebidas">Bebidas</string>
+    <string name="lbl_postres">Postres</string>
+<!--     fragment_costumbres_sup -->
+</resources>
